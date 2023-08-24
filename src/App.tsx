@@ -11,8 +11,8 @@ function App() {
         padding="50px 20px"
       ></Section> */}
       <Form
-        backgroundColor="#232323"
-        padding="20px"
+        backgroundColor="#242424"
+        padding="20px 30px"
         borderRadius="10px"
         height="70vh"
         width="100%"

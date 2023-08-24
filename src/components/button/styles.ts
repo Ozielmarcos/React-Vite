@@ -5,4 +5,5 @@ export const ButtonBase = styled.button<ButtonBaseProps>`
   width: ${(props) => props.$width};
   border-radius: ${(props) => props.$borderRadius};
   background-color: ${(props) => props.$backgroundColor};
+  padding: ${(props) => props.$padding}
 `;
