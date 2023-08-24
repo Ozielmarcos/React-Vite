@@ -1,4 +1,3 @@
-import { Form } from '../form';
 import { SectionProps } from './props';
 import { SectionBase } from './styles';
 
@@ -11,6 +10,7 @@ const Section = ({
   alignItems,
   display,
   justifyContent,
+  children,
 }: SectionProps) => {
   return (
     <SectionBase
@@ -23,13 +23,7 @@ const Section = ({
       $justifyContent={justifyContent}
       $margin={margin}
     >
-      <Form
-        backgroundColor="#232323"
-        padding="20px"
-        borderRadius="10px"
-        height="80vh"
-        width="300px"
-      />
+      {children}
     </SectionBase>
   );
 };

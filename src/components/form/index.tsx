@@ -27,37 +27,37 @@ export const Form = ({
       <Titulo color="white" fontSize="30px">
         Login
       </Titulo>
-      <Label color="white" fontsize=".5em" textAlign="left" width="100%">
+      <Label color="white" fontsize=".5em" textAlign="left" width="50%">
         Nome
       </Label>
       <Input
         type="text"
         fontSize=".5em"
-        width="100%"
+        width="50%"
         padding="3px"
         margin="0 0 10px 0"
         placeholder="Digite seu nome"
         required
       />
-      <Label color="white" fontsize=".5em" textAlign="left" width="100%">
+      <Label color="white" fontsize=".5em" textAlign="left" width="50%">
         E-mail
       </Label>
       <Input
         type="email"
         fontSize=".5em"
-        width="100%"
+        width="50%"
         padding="3px"
         margin="0 0 10px 0"
         placeholder="Digite o e-mail"
         required
       />
-      <Label color="white" fontsize=".5em" textAlign="left" width="100%">
+      <Label color="white" fontsize=".5em" textAlign="left" width="50%">
         Senha
       </Label>
       <Input
         type="password"
         fontSize=".5em"
-        width="100%"
+        width="50%"
         padding="3px"
         margin="0 0 10px 0"
         placeholder="Digite a senha"
