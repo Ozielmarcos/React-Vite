@@ -3,6 +3,10 @@ export interface SectionBaseProps {
   $height?: string;
   $backgroundColor?: string;
   $padding?: string;
+  $display?: string;
+  $alignItems?: string;
+  $justifyContent?: string;
+  $margin?: string;
 }
 
 export interface SectionProps {
@@ -10,4 +14,8 @@ export interface SectionProps {
   height?: string;
   backgroundColor?: string;
   padding?: string;
+  display?: string;
+  alignItems?: string;
+  justifyContent?: string;
+  margin?: string;
 }

@@ -1,23 +1,17 @@
 import './App.css';
-import { Form } from './components/form';
+import Section from './components/section';
 
 function App() {
   return (
-    <>
-      {/* <Section
-        width="90%"
-        height="50%"
-        backgroundColor="#242424"
-        padding="50px 20px"
-      ></Section> */}
-      <Form
-        backgroundColor="#232323"
-        padding="20px"
-        borderRadius="10px"
-        height="70vh"
-        width="100%"
-      ></Form>
-    </>
+    <Section
+      width="100%"
+      height="100vh"
+      backgroundColor="#e43535"
+      padding="50px 20px"
+      display="flex"
+      alignItems="center"
+      justifyContent="center"
+    ></Section>
   );
 }
 

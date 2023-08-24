@@ -7,10 +7,11 @@ export const FormBase = styled.form<FormBaseProps>`
   padding: ${(props) => props.$padding};
   background-color: ${(props) => props.$backgroundColor};
   border-radius: ${(props) => props.$borderRadius};
+  margin: ${(props) => props.$margin};
+  text-align: ${(props) => props.$textAlign};
 
   display: flex;
   flex-direction: column;
-  gap: 10px;
   align-items: center;
   justify-content: space-evenly;
 `;

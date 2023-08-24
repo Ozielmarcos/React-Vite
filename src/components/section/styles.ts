@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { ButtonBase } from '../button/styles';
 import { SectionBaseProps } from './props';
 
 export const SectionBase = styled.section<SectionBaseProps>`
@@ -6,10 +7,13 @@ export const SectionBase = styled.section<SectionBaseProps>`
   height: ${(props) => props.$height};
   background-color: ${(props) => props.$backgroundColor};
   padding: ${(props) => props.$padding};
-  display: flex;
-  gap: 15px;
+  display: ${(props) => props.$display};
+  align-items: ${(props) => props.$alignItems};
+  justify-content: ${(props) => props.$justifyContent};
+  margin: ${(props) => props.$margin};
 
-  :hover {
-    background-color: orange;
+  ${ButtonBase}:hover {
+    background-color: #000;
+    color: #fff;
   }
 `;

@@ -4,6 +4,8 @@ export interface FormBaseProps {
   $padding?: string;
   $backgroundColor?: string;
   $borderRadius?: string;
+  $margin?: string;
+  $textAlign?: string;
 }
 
 export interface FormProps {
@@ -12,4 +14,6 @@ export interface FormProps {
   padding?: string;
   backgroundColor?: string;
   borderRadius?: string;
+  margin?: string;
+  textAlign?: string;
 }
